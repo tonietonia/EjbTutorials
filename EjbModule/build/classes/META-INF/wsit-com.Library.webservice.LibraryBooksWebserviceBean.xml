@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <definitions 
+ xmlns="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+ xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="LibraryService" targetNamespace="http://webservice.Library.com/" xmlns:tns="http://webservice.Library.com/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp1="http://www.w3.org/ns/ws-policy" xmlns:fi="http://java.sun.com/xml/ns/wsit/2006/09/policy/fastinfoset/service" xmlns:tcp="http://java.sun.com/xml/ns/wsit/2006/09/policy/soaptcp/service" 
+ >
+    <message name="getBooks"/>
+    <message name="getBooksResponse"/>
+    <portType name="LibraryBooksWebserviceBean">
+        <operation name="getBooks">
+            <input message="tns:getBooks"/>
+            <output message="tns:getBooksResponse"/>
+        </operation>
+    </portType>
+    <binding name="LibraryBooksWebserviceBeanPortBinding" type="tns:LibraryBooksWebserviceBean">
+        <wsp:PolicyReference URI="#LibraryBooksWebserviceBeanPortBindingPolicy"/>
+        <operation name="getBooks">
+            <input/>
+            <output/>
+        </operation>
+    </binding>
+    <service name="LibraryService">
+        <port name="LibraryBooksWebserviceBeanPort" binding="tns:LibraryBooksWebserviceBeanPortBinding"/>
+    </service>
+    <wsp:Policy wsu:Id="LibraryBooksWebserviceBeanPortBindingPolicy">
+        <wsp:ExactlyOne>
+            <wsp:All/>
+        </wsp:ExactlyOne>
+    </wsp:Policy>
+</definitions>

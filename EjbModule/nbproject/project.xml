@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.j2ee.ejbjarproject</type>
+    <configuration>
+        <buildExtensions xmlns="http://www.netbeans.org/ns/ant-build-extender/1">
+            <extension file="jaxws-build.xml" id="jaxws"/>
+        </buildExtensions>
+        <data xmlns="http://www.netbeans.org/ns/j2ee-ejbjarproject/3">
+            <name>EjbModule</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <included-library dirs="200">libs.javaee-endorsed-api-6.0.classpath</included-library>
+            <included-library dirs="200">libs.jaxb.classpath</included-library>
+            <included-library dirs="200">libs.PostgreSQLDriver.classpath</included-library>
+            <included-library dirs="200">libs.jpa20-persistence.classpath</included-library>
+            <included-library dirs="200">libs.jpa2-persistence.classpath</included-library>
+            <included-library dirs="200">libs.JAVADB_DRIVER_LABEL.classpath</included-library>
+            <included-library dirs="200">libs.javaee-endorsed-api-7.0.classpath</included-library>
+            <included-library dirs="200">libs.Java-EE-GlassFish-v3-Prelude.classpath</included-library>
+            <included-library dirs="200">libs.javaee-api-6.0.classpath</included-library>
+            <included-library dirs="200">libs.javaee-web-api-7.0.classpath</included-library>
+            <included-library dirs="200">libs.javaee-api-7.0.classpath</included-library>
+            <included-library dirs="200">libs.MySQLDriver.classpath</included-library>
+            <included-library dirs="200">libs.javaee-web-api-6.0.classpath</included-library>
+            <included-library dirs="200">file.reference.concurrent.jar</included-library>
+            <included-library dirs="200">file.reference.dom4j.jar</included-library>
+            <included-library dirs="200">file.reference.lib-endorsed</included-library>
+            <included-library dirs="200">file.reference.getopt.jar</included-library>
+            <included-library dirs="200">file.reference.javassist.jar</included-library>
+            <included-library dirs="200">file.reference.jaxb-impl.jar</included-library>
+            <included-library dirs="200">file.reference.jaxb-xjc.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop-asintegration-core.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop-asintegration-jmx.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop-asintegration-mc.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop-deployers.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop-jboss5.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop-mc-int.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-aop.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-bootstrap.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-classloader.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-classloading-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-classloading-vfs.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-classloading.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-common-core.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-dependency.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-client-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-client.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-core-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-core.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-impl.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-structure-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-vfs-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-deployers-vfs.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-j2se.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-jmx.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-kernel.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-logbridge.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-logging-jdk.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-logging-log4j.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-logging-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-logmanager.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-main.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-managed.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-mbeans.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-mdr.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-metatype.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-profileservice-spi.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-reflect.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-system-jmx.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-system.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-vfs.jar</included-library>
+            <included-library dirs="200">file.reference.jboss-xml-binding.jar</included-library>
+            <included-library dirs="200">file.reference.log4j-boot.jar</included-library>
+            <included-library dirs="200">file.reference.osgi.core.jar</included-library>
+            <included-library dirs="200">file.reference.trove.jar</included-library>
+            <included-library dirs="200">file.reference.wstx.jar</included-library>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+    </configuration>
+</project>
