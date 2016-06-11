@@ -1,0 +1,473 @@
+2016-05-30 19:45:13,867 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2016-05-30 19:45:22,275 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2016-05-30 19:45:22,275 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2016-05-30 19:45:23,549 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2016-05-30 19:45:25,786 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@332becd1[ defaultDomain='jboss' ]
+2016-05-30 19:45:40,020 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1791763133{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-30 19:45:40,021 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1791763133{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-30 19:45:40,022 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1791763133{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-30 19:45:40,022 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1791763133{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-30 19:45:40,022 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@449201850{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-30 19:45:40,022 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@449201850{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-30 19:45:40,022 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@449201850{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-30 19:45:40,022 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@449201850{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-30 19:45:45,576 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2016-05-30 19:45:45,954 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2016-05-30 19:46:02,956 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2016-05-30 19:46:02,993 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2016-05-30 19:46:03,186 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2016-05-30 19:46:03,432 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2016-05-30 19:46:03,433 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2016-05-30 19:46:04,117 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2016-05-30 19:46:04,824 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2016-05-30 19:46:04,824 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2016-05-30 19:46:04,887 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2016-05-30 19:46:05,953 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-05-30 19:46:06,130 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2016-05-30 19:46:06,131 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2016-05-30 19:46:06,255 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2016-05-30 19:46:06,259 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2016-05-30 19:46:06,451 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 319 ms
+2016-05-30 19:46:06,507 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2016-05-30 19:46:07,961 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2016-05-30 19:46:08,017 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2016-05-30 19:46:09,125 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2016-05-30 19:46:09,176 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2016-05-30 19:46:09,237 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2016-05-30 19:46:09,312 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2016-05-30 19:46:09,390 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2016-05-30 19:46:09,642 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2016-05-30 19:46:09,765 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.5.2 created.
+2016-05-30 19:46:09,770 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2016-05-30 19:46:09,774 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-05-30 19:46:09,775 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.5.2
+2016-05-30 19:46:09,775 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-30 19:46:11,017 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2016-05-30 19:46:12,158 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2016-05-30 19:46:12,418 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2016-05-30 19:46:12,546 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2016-05-30 19:46:12,546 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2016-05-30 19:46:12,924 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2016-05-30 19:46:12,924 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@351ddc78 started
+2016-05-30 19:46:13,076 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2016-05-30 19:46:13,083 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2016-05-30 19:46:13,083 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@4402473d started
+2016-05-30 19:46:13,086 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/BookQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2016-05-30 19:46:13,095 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2016-05-30 19:46:13,098 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@60d00385 started
+2016-05-30 19:46:13,351 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PostgresDS' to JNDI name 'java:PostgresDS'
+2016-05-30 19:46:13,568 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2016-05-30 19:46:14,935 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: EjbModule.jar
+2016-05-30 19:46:14,951 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3
+2016-05-30 19:46:14,951 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,951 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,952 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBean/remote
+2016-05-30 19:46:14,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.interceptor.LibraryBeanRemote
+2016-05-30 19:46:14,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBean/remote-com.eduLibrary.interceptor.LibraryBeanRemote
+2016-05-30 19:46:14,957 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=BookMessageHandler,service=EJB3
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryPersistentBean/remote-com.eduLibrary.persistence.LibraryPersistentBeanRemote
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:null
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:javax.jms.MessageListener
+2016-05-30 19:46:14,958 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=BookMessageHandler,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.persistence.LibraryBookPersistentBeanRemote
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookPersistentBean/remote
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookPersistentBean/remote-com.eduLibrary.persistence.LibraryBookPersistentBeanRemote
+2016-05-30 19:46:14,966 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryPersistentBean/remote
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryPersistentBean/remote-com.eduLibrary.persistence.LibraryPersistentBeanRemote
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.persistence.LibraryPersistentBeanRemote
+2016-05-30 19:46:14,972 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookssPersistentBean/remote
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.rawdatabase.LibraryBookssPersistentBeanRemote
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookssPersistentBean/remote-com.eduLibrary.rawdatabase.LibraryBookssPersistentBeanRemote
+2016-05-30 19:46:14,976 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatefulSessionBean/remote-com.eduLibrary.stateful.LibraryStatefulSessionBeanRemote
+2016-05-30 19:46:14,981 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.stateful.LibraryStatefulSessionBeanRemote
+2016-05-30 19:46:14,982 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatefulSessionBean/remote
+2016-05-30 19:46:14,982 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.stateless.LibraryStatelessBeanRemote
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatelessBean/remote
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatelessBean/remote-com.eduLibrary.stateless.LibraryStatelessBeanRemote
+2016-05-30 19:46:14,983 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.timer.TimerSessionBeanRemote
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:TimerSessionBean/remote-com.eduLibrary.timer.TimerSessionBeanRemote
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:TimerSessionBean/remote
+2016-05-30 19:46:14,984 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:14,991 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3
+2016-05-30 19:46:14,992 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:15,009 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:15,009 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:15,009 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:15,017 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:15,017 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.webservice.LibraryBooksWebserviceBeanRemote
+2016-05-30 19:46:15,017 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBooksWebserviceBean/remote
+2016-05-30 19:46:15,017 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBooksWebserviceBean/remote-com.eduLibrary.webservice.LibraryBooksWebserviceBeanRemote
+2016-05-30 19:46:15,017 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-30 19:46:15,025 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@5bc67915{name=jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,026 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@6049461b{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,026 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@456f8f04{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,026 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@459b43d5{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,026 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@1bf088aa{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,026 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@2e458709{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,027 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@62c06830{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,029 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@2e566ba8{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:15,252 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3
+2016-05-30 19:46:15,280 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.interceptor.LibraryBean ejbName: LibraryBean
+2016-05-30 19:46:15,494 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBean/remote-com.eduLibrary.interceptor.LibraryBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:15,690 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3
+2016-05-30 19:46:15,690 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.rawdatabase.LibraryBookssPersistentBean ejbName: LibraryBookssPersistentBean
+2016-05-30 19:46:15,711 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBookssPersistentBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBookssPersistentBean/remote-com.eduLibrary.rawdatabase.LibraryBookssPersistentBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:16,024 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3
+2016-05-30 19:46:16,033 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.stateful.LibraryStatefulSessionBean ejbName: LibraryStatefulSessionBean
+2016-05-30 19:46:16,062 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryStatefulSessionBean/remote - EJB3.x Default Remote Business Interface
+	LibraryStatefulSessionBean/remote-com.eduLibrary.stateful.LibraryStatefulSessionBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:16,192 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3
+2016-05-30 19:46:16,192 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.stateless.LibraryStatelessBean ejbName: LibraryStatelessBean
+2016-05-30 19:46:16,205 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryStatelessBean/remote - EJB3.x Default Remote Business Interface
+	LibraryStatelessBean/remote-com.eduLibrary.stateless.LibraryStatelessBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:16,258 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3
+2016-05-30 19:46:16,274 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.timer.TimerSessionBean ejbName: TimerSessionBean
+2016-05-30 19:46:16,308 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	TimerSessionBean/remote - EJB3.x Default Remote Business Interface
+	TimerSessionBean/remote-com.eduLibrary.timer.TimerSessionBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:16,399 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#EjbComponentPU2
+2016-05-30 19:46:16,682 INFO  [org.hibernate.cfg.annotations.Version] (main) Hibernate Annotations 3.4.0.GA
+2016-05-30 19:46:16,792 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.3.1.GA
+2016-05-30 19:46:16,823 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2016-05-30 19:46:16,843 INFO  [org.hibernate.cfg.Environment] (main) Bytecode provider name : javassist
+2016-05-30 19:46:16,876 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2016-05-30 19:46:17,103 INFO  [org.hibernate.annotations.common.Version] (main) Hibernate Commons Annotations 3.1.0.GA
+2016-05-30 19:46:17,112 INFO  [org.hibernate.ejb.Version] (main) Hibernate EntityManager 3.4.0.GA
+2016-05-30 19:46:17,217 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: EjbComponentPU2
+	...]
+2016-05-30 19:46:17,264 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2016-05-30 19:46:17,493 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Book
+2016-05-30 19:46:17,526 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findAll => SELECT b FROM Book b
+2016-05-30 19:46:17,526 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findById => SELECT b FROM Book b WHERE b.id = :id
+2016-05-30 19:46:17,526 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findByName => SELECT b FROM Book b WHERE b.name = :name
+2016-05-30 19:46:17,665 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Book on table book
+2016-05-30 19:46:18,009 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Author
+2016-05-30 19:46:18,010 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findAll => SELECT a FROM Author a
+2016-05-30 19:46:18,010 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByAuthorId => SELECT a FROM Author a WHERE a.authorId = :authorId
+2016-05-30 19:46:18,010 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByName => SELECT a FROM Author a WHERE a.name = :name
+2016-05-30 19:46:18,010 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Author on table author
+2016-05-30 19:46:18,012 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.BookBlob
+2016-05-30 19:46:18,012 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findAll => SELECT b FROM BookBlob b
+2016-05-30 19:46:18,012 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findById => SELECT b FROM BookBlob b WHERE b.id = :id
+2016-05-30 19:46:18,012 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findByName => SELECT b FROM BookBlob b WHERE b.name = :name
+2016-05-30 19:46:18,012 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findByXml => SELECT b FROM BookBlob b WHERE b.xml = :xml
+2016-05-30 19:46:18,012 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.BookBlob on table book_blob
+2016-05-30 19:46:18,062 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.BookEmbeddable
+2016-05-30 19:46:18,062 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookEmbeddable.findAll => SELECT b FROM BookEmbeddable b
+2016-05-30 19:46:18,062 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookEmbeddable.findById => SELECT b FROM BookEmbeddable b WHERE b.id = :id
+2016-05-30 19:46:18,062 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookEmbeddable.findByName => SELECT b FROM BookEmbeddable b WHERE b.name = :name
+2016-05-30 19:46:18,062 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.BookEmbeddable on table book_embeddable
+2016-05-30 19:46:18,065 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Books
+2016-05-30 19:46:18,065 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findAll => SELECT b FROM Books b
+2016-05-30 19:46:18,066 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findById => SELECT b FROM Books b WHERE b.id = :id
+2016-05-30 19:46:18,066 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findByName => SELECT b FROM Books b WHERE b.name = :name
+2016-05-30 19:46:18,066 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Books on table books
+2016-05-30 19:46:18,068 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Bookss
+2016-05-30 19:46:18,069 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findAll => SELECT b FROM Bookss b
+2016-05-30 19:46:18,069 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findById => SELECT b FROM Bookss b WHERE b.id = :id
+2016-05-30 19:46:18,069 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findByName => SELECT b FROM Bookss b WHERE b.name = :name
+2016-05-30 19:46:18,069 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Bookss on table bookss
+2016-05-30 19:46:18,333 INFO  [org.hibernate.validator.Version] (main) Hibernate Validator 3.1.0.GA
+2016-05-30 19:46:18,528 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2016-05-30 19:46:18,714 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2016-05-30 19:46:18,723 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2016-05-30 19:46:19,506 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: PostgreSQL, version: 9.3.13
+2016-05-30 19:46:19,507 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.4.1208.jre7
+2016-05-30 19:46:19,621 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-05-30 19:46:19,643 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2016-05-30 19:46:19,653 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2016-05-30 19:46:19,664 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2016-05-30 19:46:19,664 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2016-05-30 19:46:19,664 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2016-05-30 19:46:19,664 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2016-05-30 19:46:19,664 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2016-05-30 19:46:19,666 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2016-05-30 19:46:19,676 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2016-05-30 19:46:19,676 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2016-05-30 19:46:19,681 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2016-05-30 19:46:19,681 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2016-05-30 19:46:19,681 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2016-05-30 19:46:19,681 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2016-05-30 19:46:19,681 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-05-30 19:46:19,705 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2016-05-30 19:46:19,705 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2016-05-30 19:46:19,705 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2016-05-30 19:46:19,708 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2016-05-30 19:46:19,709 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2016-05-30 19:46:19,738 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2016-05-30 19:46:19,739 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2016-05-30 19:46:19,754 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2016-05-30 19:46:19,754 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#EjbComponentPU2
+2016-05-30 19:46:19,754 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2016-05-30 19:46:19,784 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2016-05-30 19:46:19,784 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2016-05-30 19:46:19,784 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2016-05-30 19:46:19,784 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2016-05-30 19:46:20,010 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2016-05-30 19:46:20,552 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#EjbComponentPU2
+2016-05-30 19:46:20,556 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-30 19:46:20,560 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#EjbComponentPU2
+2016-05-30 19:46:20,561 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2016-05-30 19:46:20,590 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) Running hbm2ddl schema update
+2016-05-30 19:46:20,590 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) fetching database metadata
+2016-05-30 19:46:20,749 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) updating schema
+2016-05-30 19:46:21,603 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.author
+2016-05-30 19:46:21,604 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, author_id]
+2016-05-30 19:46:21,604 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-30 19:46:21,604 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [author_pkey]
+2016-05-30 19:46:21,648 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.book
+2016-05-30 19:46:21,649 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, id]
+2016-05-30 19:46:21,649 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-30 19:46:21,649 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [book_pkey]
+2016-05-30 19:46:21,706 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.book_author
+2016-05-30 19:46:21,706 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [book_id, author_id]
+2016-05-30 19:46:21,706 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: [fkedcb7ba1b56b098b, fkedcb7ba12e35d0b]
+2016-05-30 19:46:21,706 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: []
+2016-05-30 19:46:21,793 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.book_blob
+2016-05-30 19:46:21,793 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [image, xml, name, publisher_address, publisher, id]
+2016-05-30 19:46:21,793 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-30 19:46:21,793 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [book_blob_pkey]
+2016-05-30 19:46:21,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.book_embeddable
+2016-05-30 19:46:21,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, publisher_address, publisher, id]
+2016-05-30 19:46:21,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-30 19:46:21,854 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [book_embeddable_pkey]
+2016-05-30 19:46:21,928 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.books
+2016-05-30 19:46:21,928 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [image, xml, name, publisher_address, publisher, id]
+2016-05-30 19:46:21,928 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-30 19:46:21,928 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [books_pkey]
+2016-05-30 19:46:21,990 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.bookss
+2016-05-30 19:46:21,990 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, id]
+2016-05-30 19:46:21,990 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-30 19:46:21,990 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [bookss_pkey]
+2016-05-30 19:46:21,991 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) schema update complete
+2016-05-30 19:46:22,001 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-30 19:46:22,979 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:22,980 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: EjbModulePU
+	...]
+2016-05-30 19:46:22,987 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2016-05-30 19:46:22,988 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Book
+2016-05-30 19:46:22,988 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findAll => SELECT b FROM Book b
+2016-05-30 19:46:22,988 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findById => SELECT b FROM Book b WHERE b.id = :id
+2016-05-30 19:46:22,988 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findByName => SELECT b FROM Book b WHERE b.name = :name
+2016-05-30 19:46:22,988 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Book on table book
+2016-05-30 19:46:22,990 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Author
+2016-05-30 19:46:22,990 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findAll => SELECT a FROM Author a
+2016-05-30 19:46:22,990 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByAuthorId => SELECT a FROM Author a WHERE a.authorId = :authorId
+2016-05-30 19:46:22,990 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByName => SELECT a FROM Author a WHERE a.name = :name
+2016-05-30 19:46:22,991 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Author on table author
+2016-05-30 19:46:22,991 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.BookBlob
+2016-05-30 19:46:22,991 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findAll => SELECT b FROM BookBlob b
+2016-05-30 19:46:22,991 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findById => SELECT b FROM BookBlob b WHERE b.id = :id
+2016-05-30 19:46:22,991 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findByName => SELECT b FROM BookBlob b WHERE b.name = :name
+2016-05-30 19:46:22,992 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookBlob.findByXml => SELECT b FROM BookBlob b WHERE b.xml = :xml
+2016-05-30 19:46:22,992 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.BookBlob on table book_blob
+2016-05-30 19:46:22,993 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.BookEmbeddable
+2016-05-30 19:46:22,994 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookEmbeddable.findAll => SELECT b FROM BookEmbeddable b
+2016-05-30 19:46:22,994 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookEmbeddable.findById => SELECT b FROM BookEmbeddable b WHERE b.id = :id
+2016-05-30 19:46:22,994 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: BookEmbeddable.findByName => SELECT b FROM BookEmbeddable b WHERE b.name = :name
+2016-05-30 19:46:22,994 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.BookEmbeddable on table book_embeddable
+2016-05-30 19:46:22,995 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Books
+2016-05-30 19:46:22,995 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findAll => SELECT b FROM Books b
+2016-05-30 19:46:22,995 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findById => SELECT b FROM Books b WHERE b.id = :id
+2016-05-30 19:46:22,995 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findByName => SELECT b FROM Books b WHERE b.name = :name
+2016-05-30 19:46:22,996 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Books on table books
+2016-05-30 19:46:22,996 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Bookss
+2016-05-30 19:46:22,996 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findAll => SELECT b FROM Bookss b
+2016-05-30 19:46:22,996 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findById => SELECT b FROM Bookss b WHERE b.id = :id
+2016-05-30 19:46:22,996 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findByName => SELECT b FROM Bookss b WHERE b.name = :name
+2016-05-30 19:46:22,997 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Bookss on table bookss
+2016-05-30 19:46:23,013 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2016-05-30 19:46:23,019 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2016-05-30 19:46:23,019 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: PostgreSQL, version: 9.3.13
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.4.1208.jre7
+2016-05-30 19:46:23,020 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-05-30 19:46:23,020 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2016-05-30 19:46:23,020 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2016-05-30 19:46:23,020 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2016-05-30 19:46:23,020 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-05-30 19:46:23,021 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2016-05-30 19:46:23,021 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2016-05-30 19:46:23,055 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2016-05-30 19:46:23,134 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:23,134 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-30 19:46:23,134 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#EjbModulePU
+2016-05-30 19:46:23,134 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2016-05-30 19:46:23,135 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-30 19:46:23,480 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3
+2016-05-30 19:46:23,497 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.persistence.LibraryBookPersistentBean ejbName: LibraryBookPersistentBean
+2016-05-30 19:46:23,520 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBookPersistentBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBookPersistentBean/remote-com.eduLibrary.persistence.LibraryBookPersistentBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:23,548 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3
+2016-05-30 19:46:23,551 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.persistence.LibraryPersistentBean ejbName: LibraryPersistentBean
+2016-05-30 19:46:23,605 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryPersistentBean/remote - EJB3.x Default Remote Business Interface
+	LibraryPersistentBean/remote-com.eduLibrary.persistence.LibraryPersistentBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:23,626 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3
+2016-05-30 19:46:23,627 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.webservice.LibraryBooksWebserviceBean ejbName: LibraryBooksWebserviceBean
+2016-05-30 19:46:23,801 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.message.LibraryMessageBean ejbName: BookMessageHandler
+2016-05-30 19:46:23,978 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBooksWebserviceBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBooksWebserviceBean/remote-com.eduLibrary.webservice.LibraryBooksWebserviceBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:24,809 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=EjbModule,endpoint=LibraryBooksWebserviceBean
+2016-05-30 19:46:29,410 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/ulrich/jboss-5.1.0.GA/server/default/data/wsdl/EjbModule.jar/LibraryService6616391645504741362.wsdl
+2016-05-30 19:46:29,514 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/EjbModule
+2016-05-30 19:46:29,545 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (main) Unable to process deployment descriptor for context '/EjbModule'
+2016-05-30 19:46:29,556 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/EjbModule'
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2016-05-30 19:46:30,579 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2016-05-30 19:46:30,580 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2016-05-30 19:46:30,580 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2016-05-30 19:46:30,580 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-30 19:46:30,581 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-30 19:46:30,582 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2016-05-30 19:46:30,582 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2016-05-30 19:46:30,582 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2016-05-30 19:46:30,582 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2016-05-30 19:46:30,583 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@556a7d69{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:30,584 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@739107bb{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:30,584 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@3be7c6ac{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-30 19:46:30,787 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2016-05-30 19:46:30,788 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2016-05-30 19:46:30,850 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:30,984 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2016-05-30 19:46:30,986 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2016-05-30 19:46:31,070 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:31,176 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2016-05-30 19:46:31,181 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2016-05-30 19:46:31,219 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2016-05-30 19:46:31,547 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2016-05-30 19:46:31,892 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2016-05-30 19:46:35,015 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2016-05-30 19:46:35,234 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2016-05-30 19:46:36,103 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2016-05-30 19:46:36,130 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2016-05-30 19:46:36,144 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221053)] Started in 1m:40s:865ms
+2016-05-30 20:10:35,599 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:60475]) postConstruct:: LibraryPersistentBean session bean created with entity Manager object: 
+2016-05-30 20:10:35,664 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:60475]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-30 20:10:35,668 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:60475]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-30 20:10:36,056 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:60475]) BookCallbackListener.prePersist:Book created : 
+2016-05-30 20:10:36,586 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:60475]) BookCallbackListener.postPersist::Book createdwith book id: 

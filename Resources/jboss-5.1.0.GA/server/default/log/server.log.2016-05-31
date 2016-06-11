@@ -1,0 +1,21 @@
+2016-05-31 17:00:54,426 WARN  [org.jboss.resource.connectionmanager.JBossManagedConnectionPool] (JCA PoolFiller) Unable to fill pool 
+org.jboss.resource.JBossResourceException: Could not create connection; - nested throwable: (org.postgresql.util.PSQLException: The connection attempt failed.)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:225)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:195)
+	at org.jboss.resource.connectionmanager.InternalManagedConnectionPool.createConnectionEventListener(InternalManagedConnectionPool.java:633)
+	at org.jboss.resource.connectionmanager.InternalManagedConnectionPool.fillToMin(InternalManagedConnectionPool.java:541)
+	at org.jboss.resource.connectionmanager.PoolFiller.run(PoolFiller.java:74)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:262)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:215)
+	at org.postgresql.Driver.makeConnection(Driver.java:406)
+	at org.postgresql.Driver.connect(Driver.java:274)
+	at org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:207)
+	... 5 more
+Caused by: java.io.EOFException
+	at org.postgresql.core.PGStream.ReceiveChar(PGStream.java:285)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:411)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:208)
+	... 10 more

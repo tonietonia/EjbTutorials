@@ -1,0 +1,1259 @@
+2016-05-23 15:28:26,625 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://127.0.0.1:8083/
+2016-05-23 15:28:34,086 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2016-05-23 15:28:34,087 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2016-05-23 15:28:34,856 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2016-05-23 15:28:37,232 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@53fbd074[ defaultDomain='jboss' ]
+2016-05-23 15:28:49,802 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@524513880{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-23 15:28:49,803 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@524513880{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-23 15:28:49,803 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@524513880{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-23 15:28:49,803 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@524513880{vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/}
+2016-05-23 15:28:49,804 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1743113690{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-23 15:28:49,804 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1743113690{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-23 15:28:49,804 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1743113690{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-23 15:28:49,804 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1743113690{vfsfile:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/profileservice-secured.jar/}
+2016-05-23 15:28:52,131 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://127.0.0.1/jndi/rmi://127.0.0.1:1090/jmxconnector
+2016-05-23 15:28:52,413 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2016-05-23 15:28:56,018 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2016-05-23 15:28:56,036 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2016-05-23 15:28:56,141 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2016-05-23 15:28:56,310 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2016-05-23 15:28:56,311 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2016-05-23 15:28:56,889 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2016-05-23 15:28:57,231 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2016-05-23 15:28:57,232 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2016-05-23 15:28:57,298 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2016-05-23 15:28:58,086 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-05-23 15:28:58,239 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2016-05-23 15:28:58,240 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2016-05-23 15:28:58,265 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2016-05-23 15:28:58,296 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2016-05-23 15:28:58,455 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 214 ms
+2016-05-23 15:28:58,518 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2016-05-23 15:28:59,788 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2016-05-23 15:29:01,678 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2016-05-23 15:29:01,879 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2016-05-23 15:29:01,896 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2016-05-23 15:29:01,918 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/jms-ra.rar/META-INF/ra.xml
+2016-05-23 15:29:01,962 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/mail-ra.rar/META-INF/ra.xml
+2016-05-23 15:29:02,037 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/quartz-ra.rar/META-INF/ra.xml
+2016-05-23 15:29:02,284 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2016-05-23 15:29:02,325 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.5.2 created.
+2016-05-23 15:29:02,329 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2016-05-23 15:29:02,331 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-05-23 15:29:02,331 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.5.2
+2016-05-23 15:29:02,332 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-23 15:29:03,234 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2016-05-23 15:29:04,076 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2016-05-23 15:29:04,244 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/BookQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2016-05-23 15:29:04,420 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2016-05-23 15:29:04,420 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@6dd6c4e8 started
+2016-05-23 15:29:04,557 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/DLQ] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2016-05-23 15:29:04,571 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2016-05-23 15:29:04,571 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@6ed1e0bf started
+2016-05-23 15:29:04,574 INFO  [org.jboss.jms.server.destination.QueueService] (main) Queue[/queue/ExpiryQueue] started, fullSize=200000, pageSize=2000, downCacheSize=2000
+2016-05-23 15:29:04,575 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsFailover attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support failover
+2016-05-23 15:29:04,575 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactoryJNDIMapper] (main) supportsLoadBalancing attribute is true on connection factory: jboss.messaging.connectionfactory:service=ClusteredConnectionFactory but post office is non clustered. So connection factory will *not* support load balancing
+2016-05-23 15:29:04,577 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) Connector bisocket://127.0.0.1:4457 has leasing enabled, lease period 10000 milliseconds
+2016-05-23 15:29:04,577 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (main) org.jboss.jms.server.connectionfactory.ConnectionFactory@1ed4a6b7 started
+2016-05-23 15:29:04,725 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PostgresDS' to JNDI name 'java:PostgresDS'
+2016-05-23 15:29:04,901 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2016-05-23 15:29:05,814 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: EjbModule.jar
+2016-05-23 15:29:05,834 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3
+2016-05-23 15:29:05,834 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,834 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,835 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,835 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,835 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBean/remote
+2016-05-23 15:29:05,835 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.interceptor.LibraryBeanRemote
+2016-05-23 15:29:05,835 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBean/remote-com.eduLibrary.interceptor.LibraryBeanRemote
+2016-05-23 15:29:05,835 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=BookMessageHandler,service=EJB3
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryPersistentBean/remote-com.eduLibrary.persistence.LibraryPersistentBeanRemote
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:null
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:javax.jms.MessageListener
+2016-05-23 15:29:05,836 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=BookMessageHandler,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,837 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3
+2016-05-23 15:29:05,837 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,837 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,837 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,837 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.persistence.LibraryBookPersistentBeanRemote
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookPersistentBean/remote
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookPersistentBean/remote-com.eduLibrary.persistence.LibraryBookPersistentBeanRemote
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3
+2016-05-23 15:29:05,838 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryPersistentBean/remote
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryPersistentBean/remote-com.eduLibrary.persistence.LibraryPersistentBeanRemote
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.persistence.LibraryPersistentBeanRemote
+2016-05-23 15:29:05,839 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,841 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3
+2016-05-23 15:29:05,841 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,841 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookssPersistentBean/remote
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.rawdatabase.LibraryBookssPersistentBeanRemote
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBookssPersistentBean/remote-com.eduLibrary.rawdatabase.LibraryBookssPersistentBeanRemote
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,842 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatefulSessionBean/remote-com.eduLibrary.stateful.LibraryStatefulSessionBeanRemote
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.stateful.LibraryStatefulSessionBeanRemote
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatefulSessionBean/remote
+2016-05-23 15:29:05,843 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.stateless.LibraryStatelessBeanRemote
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatelessBean/remote
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryStatelessBean/remote-com.eduLibrary.stateless.LibraryStatelessBeanRemote
+2016-05-23 15:29:05,844 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.timer.TimerSessionBeanRemote
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:TimerSessionBean/remote-com.eduLibrary.timer.TimerSessionBeanRemote
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:TimerSessionBean/remote
+2016-05-23 15:29:05,845 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:com.eduLibrary.webservice.LibraryBooksWebserviceBeanRemote
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBooksWebserviceBean/remote
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:LibraryBooksWebserviceBean/remote-com.eduLibrary.webservice.LibraryBooksWebserviceBeanRemote
+2016-05-23 15:29:05,846 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3) to KernelDeployment of: EjbModule.jar
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@559a832a{name=jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@5b86e8ce{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@5223670a{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@38684297{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@2badad7a{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@25193b00{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,856 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@7d904913{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:05,857 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@33b4caa1{name=jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:06,054 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3
+2016-05-23 15:29:06,077 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.interceptor.LibraryBean ejbName: LibraryBean
+2016-05-23 15:29:06,203 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBean/remote-com.eduLibrary.interceptor.LibraryBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:06,338 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3
+2016-05-23 15:29:06,351 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.rawdatabase.LibraryBookssPersistentBean ejbName: LibraryBookssPersistentBean
+2016-05-23 15:29:06,368 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBookssPersistentBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBookssPersistentBean/remote-com.eduLibrary.rawdatabase.LibraryBookssPersistentBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:06,502 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3
+2016-05-23 15:29:06,503 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.stateful.LibraryStatefulSessionBean ejbName: LibraryStatefulSessionBean
+2016-05-23 15:29:06,535 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryStatefulSessionBean/remote - EJB3.x Default Remote Business Interface
+	LibraryStatefulSessionBean/remote-com.eduLibrary.stateful.LibraryStatefulSessionBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:06,747 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3
+2016-05-23 15:29:06,750 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.stateless.LibraryStatelessBean ejbName: LibraryStatelessBean
+2016-05-23 15:29:06,776 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryStatelessBean/remote - EJB3.x Default Remote Business Interface
+	LibraryStatelessBean/remote-com.eduLibrary.stateless.LibraryStatelessBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:06,889 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3
+2016-05-23 15:29:06,890 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.timer.TimerSessionBean ejbName: TimerSessionBean
+2016-05-23 15:29:06,910 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	TimerSessionBean/remote - EJB3.x Default Remote Business Interface
+	TimerSessionBean/remote-com.eduLibrary.timer.TimerSessionBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:07,035 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 15:29:07,289 INFO  [org.hibernate.cfg.annotations.Version] (main) Hibernate Annotations 3.4.0.GA
+2016-05-23 15:29:07,400 INFO  [org.hibernate.cfg.Environment] (main) Hibernate 3.3.1.GA
+2016-05-23 15:29:07,426 INFO  [org.hibernate.cfg.Environment] (main) hibernate.properties not found
+2016-05-23 15:29:07,439 INFO  [org.hibernate.cfg.Environment] (main) Bytecode provider name : javassist
+2016-05-23 15:29:07,461 INFO  [org.hibernate.cfg.Environment] (main) using JDK 1.4 java.sql.Timestamp handling
+2016-05-23 15:29:07,726 INFO  [org.hibernate.annotations.common.Version] (main) Hibernate Commons Annotations 3.1.0.GA
+2016-05-23 15:29:07,736 INFO  [org.hibernate.ejb.Version] (main) Hibernate EntityManager 3.4.0.GA
+2016-05-23 15:29:07,846 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: EjbComponentPU2
+	...]
+2016-05-23 15:29:07,882 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2016-05-23 15:29:08,091 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Book
+2016-05-23 15:29:08,166 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findAll => SELECT b FROM Book b
+2016-05-23 15:29:08,166 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findById => SELECT b FROM Book b WHERE b.id = :id
+2016-05-23 15:29:08,166 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findByName => SELECT b FROM Book b WHERE b.name = :name
+2016-05-23 15:29:08,303 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Book on table book
+2016-05-23 15:29:08,549 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Author
+2016-05-23 15:29:08,549 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findAll => SELECT a FROM Author a
+2016-05-23 15:29:08,549 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByAuthorId => SELECT a FROM Author a WHERE a.authorId = :authorId
+2016-05-23 15:29:08,549 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByName => SELECT a FROM Author a WHERE a.name = :name
+2016-05-23 15:29:08,562 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Author on table author
+2016-05-23 15:29:08,566 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Books
+2016-05-23 15:29:08,566 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findAll => SELECT b FROM Books b
+2016-05-23 15:29:08,566 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findById => SELECT b FROM Books b WHERE b.id = :id
+2016-05-23 15:29:08,566 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findByName => SELECT b FROM Books b WHERE b.name = :name
+2016-05-23 15:29:08,567 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Books on table books
+2016-05-23 15:29:08,661 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Bookss
+2016-05-23 15:29:08,661 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findAll => SELECT b FROM Bookss b
+2016-05-23 15:29:08,661 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findById => SELECT b FROM Bookss b WHERE b.id = :id
+2016-05-23 15:29:08,661 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findByName => SELECT b FROM Bookss b WHERE b.name = :name
+2016-05-23 15:29:08,667 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Bookss on table bookss
+2016-05-23 15:29:08,972 INFO  [org.hibernate.validator.Version] (main) Hibernate Validator 3.1.0.GA
+2016-05-23 15:29:09,088 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2016-05-23 15:29:09,254 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2016-05-23 15:29:09,276 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2016-05-23 15:29:09,773 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: PostgreSQL, version: 9.3.12
+2016-05-23 15:29:09,773 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.4.1208.jre7
+2016-05-23 15:29:09,885 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-05-23 15:29:09,899 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2016-05-23 15:29:09,907 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2016-05-23 15:29:09,912 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2016-05-23 15:29:09,913 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2016-05-23 15:29:09,913 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2016-05-23 15:29:09,913 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2016-05-23 15:29:09,913 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2016-05-23 15:29:09,915 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2016-05-23 15:29:09,915 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2016-05-23 15:29:09,915 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2016-05-23 15:29:09,918 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2016-05-23 15:29:09,918 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2016-05-23 15:29:09,918 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2016-05-23 15:29:09,918 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2016-05-23 15:29:09,918 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-05-23 15:29:09,932 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2016-05-23 15:29:09,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2016-05-23 15:29:09,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2016-05-23 15:29:09,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2016-05-23 15:29:09,933 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2016-05-23 15:29:09,965 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2016-05-23 15:29:09,965 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2016-05-23 15:29:09,970 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2016-05-23 15:29:09,970 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 15:29:09,970 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2016-05-23 15:29:09,988 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2016-05-23 15:29:09,988 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2016-05-23 15:29:09,988 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2016-05-23 15:29:09,988 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2016-05-23 15:29:10,205 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2016-05-23 15:29:10,696 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 15:29:10,700 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-23 15:29:10,704 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 15:29:10,705 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2016-05-23 15:29:10,737 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) Running hbm2ddl schema update
+2016-05-23 15:29:10,738 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) fetching database metadata
+2016-05-23 15:29:10,744 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) updating schema
+2016-05-23 15:29:11,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.author
+2016-05-23 15:29:11,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, author_id]
+2016-05-23 15:29:11,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-23 15:29:11,129 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [author_pkey]
+2016-05-23 15:29:11,175 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.book
+2016-05-23 15:29:11,175 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, id]
+2016-05-23 15:29:11,175 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-23 15:29:11,175 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [book_pkey]
+2016-05-23 15:29:11,235 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.book_author
+2016-05-23 15:29:11,241 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [book_id, author_id]
+2016-05-23 15:29:11,241 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: [fkedcb7ba1b56b098b, fkedcb7ba12e35d0b]
+2016-05-23 15:29:11,241 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: []
+2016-05-23 15:29:11,297 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.books
+2016-05-23 15:29:11,298 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [image, xml, name, publisher_address, publisher, id]
+2016-05-23 15:29:11,298 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-23 15:29:11,305 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [books_pkey]
+2016-05-23 15:29:11,357 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) table found: public.bookss
+2016-05-23 15:29:11,357 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) columns: [name, id]
+2016-05-23 15:29:11,357 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) foreign keys: []
+2016-05-23 15:29:11,357 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (main) indexes: [bookss_pkey]
+2016-05-23 15:29:11,358 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (main) schema update complete
+2016-05-23 15:29:11,364 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-23 15:29:12,058 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (main) Starting persistence unit persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:12,060 INFO  [org.hibernate.ejb.Ejb3Configuration] (main) Processing PersistenceUnitInfo [
+	name: EjbModulePU
+	...]
+2016-05-23 15:29:12,062 WARN  [org.hibernate.ejb.Ejb3Configuration] (main) Persistence provider caller does not implement the EJB3 spec correctly. PersistenceUnitInfo.getNewTempClassLoader() is null.
+2016-05-23 15:29:12,063 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Book
+2016-05-23 15:29:12,063 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findAll => SELECT b FROM Book b
+2016-05-23 15:29:12,063 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findById => SELECT b FROM Book b WHERE b.id = :id
+2016-05-23 15:29:12,063 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Book.findByName => SELECT b FROM Book b WHERE b.name = :name
+2016-05-23 15:29:12,064 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Book on table book
+2016-05-23 15:29:12,065 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Author
+2016-05-23 15:29:12,065 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findAll => SELECT a FROM Author a
+2016-05-23 15:29:12,065 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByAuthorId => SELECT a FROM Author a WHERE a.authorId = :authorId
+2016-05-23 15:29:12,065 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Author.findByName => SELECT a FROM Author a WHERE a.name = :name
+2016-05-23 15:29:12,065 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Author on table author
+2016-05-23 15:29:12,066 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Books
+2016-05-23 15:29:12,067 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findAll => SELECT b FROM Books b
+2016-05-23 15:29:12,067 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findById => SELECT b FROM Books b WHERE b.id = :id
+2016-05-23 15:29:12,067 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Books.findByName => SELECT b FROM Books b WHERE b.name = :name
+2016-05-23 15:29:12,067 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Books on table books
+2016-05-23 15:29:12,069 INFO  [org.hibernate.cfg.AnnotationBinder] (main) Binding entity from annotated class: com.eduLibrary.entities.Bookss
+2016-05-23 15:29:12,069 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findAll => SELECT b FROM Bookss b
+2016-05-23 15:29:12,069 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findById => SELECT b FROM Bookss b WHERE b.id = :id
+2016-05-23 15:29:12,069 INFO  [org.hibernate.cfg.annotations.QueryBinder] (main) Binding Named query: Bookss.findByName => SELECT b FROM Bookss b WHERE b.name = :name
+2016-05-23 15:29:12,069 INFO  [org.hibernate.cfg.annotations.EntityBinder] (main) Bind entity com.eduLibrary.entities.Bookss on table bookss
+2016-05-23 15:29:12,134 INFO  [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] (main) Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2016-05-23 15:29:12,149 INFO  [org.hibernate.connection.ConnectionProviderFactory] (main) Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2016-05-23 15:29:12,149 INFO  [org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider] (main) Using provided datasource
+2016-05-23 15:29:12,152 INFO  [org.hibernate.cfg.SettingsFactory] (main) RDBMS: PostgreSQL, version: 9.3.12
+2016-05-23 15:29:12,152 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.4.1208.jre7
+2016-05-23 15:29:12,152 INFO  [org.hibernate.dialect.Dialect] (main) Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2016-05-23 15:29:12,154 INFO  [org.hibernate.transaction.TransactionFactoryFactory] (main) Transaction strategy: org.hibernate.ejb.transaction.JoinableCMTTransactionFactory
+2016-05-23 15:29:12,154 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiating TransactionManagerLookup: org.hibernate.transaction.JBossTransactionManagerLookup
+2016-05-23 15:29:12,154 INFO  [org.hibernate.transaction.TransactionManagerLookupFactory] (main) instantiated TransactionManagerLookup
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic flush during beforeCompletion(): disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Automatic session close at end of transaction: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch size: 15
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC batch updates for versioned data: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Scrollable result sets: enabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) JDBC3 getGeneratedKeys(): enabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Connection release mode: auto
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default batch fetch size: 1
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Generate SQL with comments: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL updates by primary key: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Order SQL inserts for batching: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-05-23 15:29:12,154 INFO  [org.hibernate.hql.ast.ASTQueryTranslatorFactory] (main) Using ASTQueryTranslatorFactory
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query language substitutions: {}
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) JPA-QL strict compliance: enabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Second-level cache: enabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Query cache: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge] (main) Cache provider: org.hibernate.cache.HashtableCacheProvider
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Optimize cache for minimal puts: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Cache region prefix: persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Structured second-level cache entries: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Statistics: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Deleted entity synthetic identifier rollback: disabled
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Default entity-mode: pojo
+2016-05-23 15:29:12,154 INFO  [org.hibernate.cfg.SettingsFactory] (main) Named query checking : enabled
+2016-05-23 15:29:12,210 INFO  [org.hibernate.impl.SessionFactoryImpl] (main) building session factory
+2016-05-23 15:29:12,267 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Factory name: persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:12,267 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-23 15:29:12,272 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (main) Bound factory to JNDI name: persistence.unit:unitName=#EjbModulePU
+2016-05-23 15:29:12,272 WARN  [org.hibernate.impl.SessionFactoryObjectFactory] (main) InitialContext did not implement EventContext
+2016-05-23 15:29:12,272 INFO  [org.hibernate.util.NamingHelper] (main) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-23 15:29:12,554 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3
+2016-05-23 15:29:12,578 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.persistence.LibraryBookPersistentBean ejbName: LibraryBookPersistentBean
+2016-05-23 15:29:12,596 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBookPersistentBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBookPersistentBean/remote-com.eduLibrary.persistence.LibraryBookPersistentBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:12,614 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3
+2016-05-23 15:29:12,615 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.persistence.LibraryPersistentBean ejbName: LibraryPersistentBean
+2016-05-23 15:29:12,642 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryPersistentBean/remote - EJB3.x Default Remote Business Interface
+	LibraryPersistentBean/remote-com.eduLibrary.persistence.LibraryPersistentBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:12,676 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3
+2016-05-23 15:29:12,678 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.webservice.LibraryBooksWebserviceBean ejbName: LibraryBooksWebserviceBean
+2016-05-23 15:29:12,771 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: com.eduLibrary.message.LibraryMessageBean ejbName: BookMessageHandler
+2016-05-23 15:29:12,887 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	LibraryBooksWebserviceBean/remote - EJB3.x Default Remote Business Interface
+	LibraryBooksWebserviceBean/remote-com.eduLibrary.webservice.LibraryBooksWebserviceBeanRemote - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:14,089 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (main) register: jboss.ws:context=EjbModule,endpoint=LibraryBooksWebserviceBean
+2016-05-23 15:29:16,768 INFO  [org.jboss.wsf.stack.jbws.WSDLFilePublisher] (main) WSDL published to: file:/home/ulrich/jboss-5.1.0.GA/server/default/data/wsdl/EjbModule.jar/LibraryService3160848442035086786.wsdl
+2016-05-23 15:29:16,884 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/EjbModule
+2016-05-23 15:29:16,915 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (main) Unable to process deployment descriptor for context '/EjbModule'
+2016-05-23 15:29:16,963 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/EjbModule'
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2016-05-23 15:29:17,883 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2016-05-23 15:29:17,896 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2016-05-23 15:29:17,897 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2016-05-23 15:29:17,898 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@2baab9d5{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:17,898 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@3c417d5b{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:17,898 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@6a9e79e1{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2016-05-23 15:29:17,984 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2016-05-23 15:29:17,985 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2016-05-23 15:29:18,002 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:18,054 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2016-05-23 15:29:18,064 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2016-05-23 15:29:18,106 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:18,193 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2016-05-23 15:29:18,201 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2016-05-23 15:29:18,227 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2016-05-23 15:29:18,445 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2016-05-23 15:29:18,675 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2016-05-23 15:29:20,829 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2016-05-23 15:29:20,992 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2016-05-23 15:29:21,225 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-127.0.0.1-8080
+2016-05-23 15:29:21,319 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2016-05-23 15:29:21,329 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221053)] Started in 1m:11s:358ms
+2016-05-23 16:09:07,927 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35017]) postConstruct:: LibraryPersistentBean session bean created with entity Manager object: 
+2016-05-23 16:09:07,991 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35017]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:09:08,002 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35017]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:09:09,137 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35017]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:09:09,137 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35017]) Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'java programming', NULL, NULL, NULL, 43) was aborted.  Call getNextException to see the cause.
+2016-05-23 16:09:09,137 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35017]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:09:09,137 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35017]) ERROR: column "image" is of type bytea but expression is of type oid
+  Hint: You will need to rewrite or cast the expression.
+  Position: 80
+2016-05-23 16:09:09,143 ERROR [org.hibernate.event.def.AbstractFlushingEventListener] (WorkerThread#0[127.0.0.1:35017]) Could not synchronize database state with session
+org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'java programming', NULL, NULL, NULL, 43) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:09:09,171 WARN  [com.arjuna.ats.arjuna.logging.arjLoggerI18N] (WorkerThread#0[127.0.0.1:35017]) [com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator_2] TwoPhaseCoordinator.beforeCompletion - failed for com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple@655a3c7e
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:614)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:513)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	... 34 more
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'java programming', NULL, NULL, NULL, 43) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:09:37,663 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35033]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:09:37,664 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35033]) Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'java', 'tu', 'tu', NULL, 44) was aborted.  Call getNextException to see the cause.
+2016-05-23 16:09:37,664 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35033]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:09:37,664 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35033]) ERROR: column "image" is of type bytea but expression is of type oid
+  Hint: You will need to rewrite or cast the expression.
+  Position: 80
+2016-05-23 16:09:37,664 ERROR [org.hibernate.event.def.AbstractFlushingEventListener] (WorkerThread#0[127.0.0.1:35033]) Could not synchronize database state with session
+org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'java', 'tu', 'tu', NULL, 44) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:09:37,667 WARN  [com.arjuna.ats.arjuna.logging.arjLoggerI18N] (WorkerThread#0[127.0.0.1:35033]) [com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator_2] TwoPhaseCoordinator.beforeCompletion - failed for com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple@4c05f57a
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:614)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:513)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	... 34 more
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'java', 'tu', 'tu', NULL, 44) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:09:57,711 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35044]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:09:57,711 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35044]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:10:15,148 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35055]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:10:15,148 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35055]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:10:15,155 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35055]) *** Intercepting call to LibraryBean method: addBook
+2016-05-23 16:10:17,656 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35057]) *** Intercepting call to LibraryBean method: getBooks
+2016-05-23 16:10:29,687 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35065]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:10:29,687 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35065]) Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'jfdlk', NULL, NULL, NULL, 47) was aborted.  Call getNextException to see the cause.
+2016-05-23 16:10:29,687 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35065]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:10:29,687 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35065]) ERROR: column "image" is of type bytea but expression is of type oid
+  Hint: You will need to rewrite or cast the expression.
+  Position: 80
+2016-05-23 16:10:29,687 ERROR [org.hibernate.event.def.AbstractFlushingEventListener] (WorkerThread#0[127.0.0.1:35065]) Could not synchronize database state with session
+org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'jfdlk', NULL, NULL, NULL, 47) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:10:29,698 WARN  [com.arjuna.ats.arjuna.logging.arjLoggerI18N] (WorkerThread#0[127.0.0.1:35065]) [com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator_2] TwoPhaseCoordinator.beforeCompletion - failed for com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple@72d4abdd
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:614)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:513)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	... 34 more
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'jfdlk', NULL, NULL, NULL, 47) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:11:08,200 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35082]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:11:08,202 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35082]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:11:08,204 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) java.lang.ClassNotFoundException: org.postgresql.driver from BaseClassLoader@7b99cdd5{VFSClassLoaderPolicy@53dd27c7{name=vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/ domain=ClassLoaderDomain@37bafbd7{name=DefaultDomain parentPolicy=BEFORE parent=org.jboss.bootstrap.NoAnnotationURLClassLoader@491f74fa} roots=[MemoryContextHandler@1505123470[path= context=vfsmemory://3j011-a1tgj8-iok3yaz8-1-iok3yyne-27 real=vfsmemory://3j011-a1tgj8-iok3yaz8-1-iok3yyne-27], DelegatingHandler@274205336[path=EjbModule.jar context=file:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/ real=file:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar]]  delegates=null exported=[, com.eduLibrary.callback, com.eduLibrary.stateless, META-INF, com.eduLibrary.rawdatabase, com.eduLibrary.persistence, com.eduLibrary.interceptor, com.eduLibrary.stateful, com.eduLibrary.model, com.eduLibrary.entities, com.eduLibrary.message, com.eduLibrary.timer, com.eduLibrary.webservice] <IMPORT-ALL>NON_EMPTY}}
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at java.lang.Class.forName0(Native Method)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at java.lang.Class.forName(Class.java:264)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at com.eduLibrary.rawdatabase.LibraryBookssPersistentBean.addBook(LibraryBookssPersistentBean.java:37)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeTarget(MethodInvocation.java:122)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:111)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.EJBContainerInvocationWrapper.invokeNext(EJBContainerInvocationWrapper.java:69)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.interceptors.aop.InterceptorSequencer.invoke(InterceptorSequencer.java:73)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.interceptors.aop.InterceptorSequencer.aroundInvoke(InterceptorSequencer.java:59)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.advice.PerJoinpointAdvice.invoke(PerJoinpointAdvice.java:174)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor.fillMethod(InvocationContextInterceptor.java:72)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.advice.org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor_z_fillMethod_900962574.invoke(InvocationContextInterceptor_z_fillMethod_900962574.java)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor.setup(InvocationContextInterceptor.java:88)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.advice.org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor_z_setup_900962574.invoke(InvocationContextInterceptor_z_setup_900962574.java)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:62)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:56)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:68)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,205 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+2016-05-23 16:11:08,206 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35082]) 	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) java.lang.ClassNotFoundException: org.postgresql.driver from BaseClassLoader@7b99cdd5{VFSClassLoaderPolicy@53dd27c7{name=vfszip:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar/ domain=ClassLoaderDomain@37bafbd7{name=DefaultDomain parentPolicy=BEFORE parent=org.jboss.bootstrap.NoAnnotationURLClassLoader@491f74fa} roots=[MemoryContextHandler@1505123470[path= context=vfsmemory://3j011-a1tgj8-iok3yaz8-1-iok3yyne-27 real=vfsmemory://3j011-a1tgj8-iok3yaz8-1-iok3yyne-27], DelegatingHandler@274205336[path=EjbModule.jar context=file:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/ real=file:/home/ulrich/jboss-5.1.0.GA/server/default/deploy/EjbModule.jar]]  delegates=null exported=[, com.eduLibrary.callback, com.eduLibrary.stateless, META-INF, com.eduLibrary.rawdatabase, com.eduLibrary.persistence, com.eduLibrary.interceptor, com.eduLibrary.stateful, com.eduLibrary.model, com.eduLibrary.entities, com.eduLibrary.message, com.eduLibrary.timer, com.eduLibrary.webservice] <IMPORT-ALL>NON_EMPTY}}
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.classloader.spi.base.BaseClassLoader.loadClass(BaseClassLoader.java:448)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at java.lang.Class.forName0(Native Method)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at java.lang.Class.forName(Class.java:264)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at com.eduLibrary.rawdatabase.LibraryBookssPersistentBean.getBooks(LibraryBookssPersistentBean.java:62)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeTarget(MethodInvocation.java:122)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:111)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.EJBContainerInvocationWrapper.invokeNext(EJBContainerInvocationWrapper.java:69)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.interceptors.aop.InterceptorSequencer.invoke(InterceptorSequencer.java:73)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.interceptors.aop.InterceptorSequencer.aroundInvoke(InterceptorSequencer.java:59)
+2016-05-23 16:11:09,935 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at java.lang.reflect.Method.invoke(Method.java:498)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.advice.PerJoinpointAdvice.invoke(PerJoinpointAdvice.java:174)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor.fillMethod(InvocationContextInterceptor.java:72)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.advice.org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor_z_fillMethod_900962574.invoke(InvocationContextInterceptor_z_fillMethod_900962574.java)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor.setup(InvocationContextInterceptor.java:88)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.advice.org.jboss.ejb3.interceptors.aop.InvocationContextInterceptor_z_setup_900962574.invoke(InvocationContextInterceptor_z_setup_900962574.java)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.connectionmanager.CachedConnectionInterceptor.invoke(CachedConnectionInterceptor.java:62)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.entity.TransactionScopedEntityManagerInterceptor.invoke(TransactionScopedEntityManagerInterceptor.java:56)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.AllowedOperationsInterceptor.invoke(AllowedOperationsInterceptor.java:47)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.stateless.StatelessInstanceInterceptor.invoke(StatelessInstanceInterceptor.java:68)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:79)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+2016-05-23 16:11:09,936 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+2016-05-23 16:11:09,937 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+2016-05-23 16:11:09,937 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+2016-05-23 16:11:09,937 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+2016-05-23 16:11:09,937 ERROR [STDERR] (WorkerThread#0[127.0.0.1:35083]) 	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+2016-05-23 16:11:22,381 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35091]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:11:22,381 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35091]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:11:24,401 INFO  [STDOUT] (EJB-Timer-1464013744679[target=jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3]) timeoutHandler : Hello World!
+2016-05-23 16:11:42,152 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35103]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:11:42,152 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35103]) Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (16436, 'jfkld', 'jkjl', 'fkls', '<book><name>jfkld</name></book>', 48) was aborted.  Call getNextException to see the cause.
+2016-05-23 16:11:42,152 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35103]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:11:42,152 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35103]) ERROR: column "image" is of type bytea but expression is of type bigint
+  Hint: You will need to rewrite or cast the expression.
+  Position: 80
+2016-05-23 16:11:42,153 ERROR [org.hibernate.event.def.AbstractFlushingEventListener] (WorkerThread#0[127.0.0.1:35103]) Could not synchronize database state with session
+org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (16436, 'jfkld', 'jkjl', 'fkls', '<book><name>jfkld</name></book>', 48) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:11:42,155 WARN  [com.arjuna.ats.arjuna.logging.arjLoggerI18N] (WorkerThread#0[127.0.0.1:35103]) [com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator_2] TwoPhaseCoordinator.beforeCompletion - failed for com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple@2d7cdf19
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:614)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:513)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	... 34 more
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (16436, 'jfkld', 'jkjl', 'fkls', '<book><name>jfkld</name></book>', 48) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:12:03,184 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35115]) LibraryStatefulSessionBean.postConstruct:: bean created.
+2016-05-23 16:12:06,845 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35117]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:12:06,845 WARN  [org.jboss.ejb3.interceptors.aop.InterceptorsFactory] (WorkerThread#0[127.0.0.1:35117]) EJBTHREE-1246: Do not use InterceptorsFactory with a ManagedObjectAdvisor, InterceptorRegistry should be used via the bean container
+2016-05-23 16:12:13,520 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35122]) LibraryStatefulSessionBean.postConstruct:: bean created.
+2016-05-23 16:12:15,636 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35125]) LibraryStatefulSessionBean.postConstruct:: bean created.
+2016-05-23 16:12:20,091 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35133]) LibraryStatefulSessionBean.postConstruct:: bean created.
+2016-05-23 16:12:24,850 INFO  [STDOUT] (WorkerThread#0[127.0.0.1:35137]) LibraryStatefulSessionBean.postConstruct:: bean created.
+2016-05-23 16:14:45,423 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35213]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:14:45,423 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35213]) Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'df', NULL, NULL, NULL, 49) was aborted.  Call getNextException to see the cause.
+2016-05-23 16:14:45,423 WARN  [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35213]) SQL Error: 0, SQLState: 42804
+2016-05-23 16:14:45,423 ERROR [org.hibernate.util.JDBCExceptionReporter] (WorkerThread#0[127.0.0.1:35213]) ERROR: column "image" is of type bytea but expression is of type oid
+  Hint: You will need to rewrite or cast the expression.
+  Position: 80
+2016-05-23 16:14:45,423 ERROR [org.hibernate.event.def.AbstractFlushingEventListener] (WorkerThread#0[127.0.0.1:35213]) Could not synchronize database state with session
+org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'df', NULL, NULL, NULL, 49) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:14:45,425 WARN  [com.arjuna.ats.arjuna.logging.arjLoggerI18N] (WorkerThread#0[127.0.0.1:35213]) [com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator_2] TwoPhaseCoordinator.beforeCompletion - failed for com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple@3792769a
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.ejb.AbstractEntityManagerImpl.throwPersistenceException(AbstractEntityManagerImpl.java:614)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:513)
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:101)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:269)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:89)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1423)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:137)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.aspects.tx.TxPolicy.endTransaction(TxPolicy.java:170)
+	at org.jboss.aspects.tx.TxPolicy.invokeInOurTx(TxPolicy.java:87)
+	at org.jboss.aspects.tx.TxInterceptor$Required.invoke(TxInterceptor.java:190)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.tx.TxPropagationInterceptor.invoke(TxPropagationInterceptor.java:76)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.tx.NullInterceptor.invoke(NullInterceptor.java:42)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.RoleBasedAuthorizationInterceptorv2.invoke(RoleBasedAuthorizationInterceptorv2.java:201)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.security.Ejb3AuthenticationInterceptorv2.invoke(Ejb3AuthenticationInterceptorv2.java:186)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.ENCPropagationInterceptor.invoke(ENCPropagationInterceptor.java:41)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.BlockContainerShutdownInterceptor.invoke(BlockContainerShutdownInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.aspects.currentinvocation.CurrentInvocationInterceptor.invoke(CurrentInvocationInterceptor.java:67)
+	at org.jboss.aop.joinpoint.MethodInvocation.invokeNext(MethodInvocation.java:102)
+	at org.jboss.ejb3.stateless.StatelessContainer.dynamicInvoke(StatelessContainer.java:421)
+	at org.jboss.ejb3.session.InvokableContextClassProxyHack._dynamicInvoke(InvokableContextClassProxyHack.java:53)
+	at org.jboss.aop.Dispatcher.invoke(Dispatcher.java:91)
+	at org.jboss.aspects.remoting.AOPRemotingInvocationHandler.invoke(AOPRemotingInvocationHandler.java:82)
+	at org.jboss.remoting.ServerInvoker.invoke(ServerInvoker.java:891)
+	at org.jboss.remoting.transport.socket.ServerThread.completeInvocation(ServerThread.java:744)
+	at org.jboss.remoting.transport.socket.ServerThread.processInvocation(ServerThread.java:697)
+	at org.jboss.remoting.transport.socket.ServerThread.dorun(ServerThread.java:524)
+	at org.jboss.remoting.transport.socket.ServerThread.run(ServerThread.java:232)
+Caused by: org.hibernate.exception.SQLGrammarException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:90)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:266)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:167)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:50)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1027)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:365)
+	at org.hibernate.ejb.AbstractEntityManagerImpl$1.beforeCompletion(AbstractEntityManagerImpl.java:504)
+	... 34 more
+Caused by: java.sql.BatchUpdateException: Batch entry 0 insert into books (image, name, PUBLISHER_ADDRESS, PUBLISHER, xml, id) values (NULL, 'df', NULL, NULL, NULL, 49) was aborted.  Call getNextException to see the cause.
+	at org.postgresql.jdbc.BatchResultHandler.handleError(BatchResultHandler.java:133)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2004)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:360)
+	at org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:1019)
+	at org.jboss.resource.adapter.jdbc.WrappedStatement.executeBatch(WrappedStatement.java:774)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 41 more
+2016-05-23 16:19:02,829 INFO  [STDOUT] (SFSB Passivation Thread - jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) LibraryStatefulSessionBean.prePassivate: bean passivated.
+2016-05-23 16:19:03,126 INFO  [STDOUT] (SFSB Passivation Thread - jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) LibraryStatefulSessionBean.prePassivate: bean passivated.
+2016-05-23 16:19:03,130 INFO  [STDOUT] (SFSB Passivation Thread - jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) LibraryStatefulSessionBean.prePassivate: bean passivated.
+2016-05-23 16:19:03,133 INFO  [STDOUT] (SFSB Passivation Thread - jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) LibraryStatefulSessionBean.prePassivate: bean passivated.
+2016-05-23 16:19:03,136 INFO  [STDOUT] (SFSB Passivation Thread - jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3) LibraryStatefulSessionBean.prePassivate: bean passivated.
+2016-05-23 17:26:05,357 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (RMI TCP Connection(64)-127.0.0.1) Shutting down the server, blockingShutdown: false
+2016-05-23 17:26:05,390 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (Thread-26) Server exit(0) called
+2016-05-23 17:26:05,407 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2016-05-23 17:26:05,411 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-127.0.0.1-8080
+2016-05-23 17:26:05,434 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-127.0.0.1-8080
+2016-05-23 17:26:05,585 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2016-05-23 17:26:05,587 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-127.0.0.1-8009
+2016-05-23 17:26:05,774 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@6dd6c4e8 undeployed
+2016-05-23 17:26:05,786 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@1ed4a6b7 undeployed
+2016-05-23 17:26:05,798 INFO  [org.jboss.jms.server.connectionfactory.ConnectionFactory] (JBoss Shutdown Hook) org.jboss.jms.server.connectionfactory.ConnectionFactory@6ed1e0bf undeployed
+2016-05-23 17:26:05,812 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2016-05-23 17:26:05,946 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/ExpiryQueue] stopped
+2016-05-23 17:26:05,949 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/DLQ] stopped
+2016-05-23 17:26:05,967 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryBean,service=EJB3
+2016-05-23 17:26:06,052 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.interceptor.LibraryBean ejbName: LibraryBean
+2016-05-23 17:26:06,374 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.message.LibraryMessageBean ejbName: BookMessageHandler
+2016-05-23 17:26:06,414 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryBookPersistentBean,service=EJB3
+2016-05-23 17:26:06,425 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.persistence.LibraryBookPersistentBean ejbName: LibraryBookPersistentBean
+2016-05-23 17:26:06,480 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryPersistentBean,service=EJB3
+2016-05-23 17:26:06,493 INFO  [STDOUT] (JBoss Shutdown Hook) preDestroy: LibraryPersistentBean session bean is removed 
+2016-05-23 17:26:06,493 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.persistence.LibraryPersistentBean ejbName: LibraryPersistentBean
+2016-05-23 17:26:06,531 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryBookssPersistentBean,service=EJB3
+2016-05-23 17:26:06,541 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.rawdatabase.LibraryBookssPersistentBean ejbName: LibraryBookssPersistentBean
+2016-05-23 17:26:06,633 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryStatefulSessionBean,service=EJB3
+2016-05-23 17:26:06,658 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.stateful.LibraryStatefulSessionBean ejbName: LibraryStatefulSessionBean
+2016-05-23 17:26:06,694 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryStatelessBean,service=EJB3
+2016-05-23 17:26:06,704 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.stateless.LibraryStatelessBean ejbName: LibraryStatelessBean
+2016-05-23 17:26:06,751 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=TimerSessionBean,service=EJB3
+2016-05-23 17:26:06,767 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.timer.TimerSessionBean ejbName: TimerSessionBean
+2016-05-23 17:26:06,802 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=EjbModule.jar,name=LibraryBooksWebserviceBean,service=EJB3
+2016-05-23 17:26:06,813 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: com.eduLibrary.webservice.LibraryBooksWebserviceBean ejbName: LibraryBooksWebserviceBean
+2016-05-23 17:26:06,894 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2016-05-23 17:26:06,924 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2016-05-23 17:26:06,985 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2016-05-23 17:26:07,003 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2016-05-23 17:26:07,091 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2016-05-23 17:26:07,099 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2016-05-23 17:26:07,140 INFO  [org.jboss.jms.server.destination.QueueService] (JBoss Shutdown Hook) Queue[/queue/BookQueue] stopped
+2016-05-23 17:26:07,144 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2016-05-23 17:26:07,269 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2016-05-23 17:26:07,305 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2016-05-23 17:26:07,454 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2016-05-23 17:26:07,487 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/EjbModule
+2016-05-23 17:26:07,492 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2016-05-23 17:26:07,499 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2016-05-23 17:26:07,510 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2016-05-23 17:26:07,520 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2016-05-23 17:26:07,683 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2016-05-23 17:26:07,904 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2016-05-23 17:26:07,904 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (JBoss Shutdown Hook) Stopping persistence unit persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 17:26:07,905 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2016-05-23 17:26:07,905 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 17:26:07,905 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-23 17:26:07,905 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: persistence.unit:unitName=#EjbComponentPU2
+2016-05-23 17:26:07,974 INFO  [org.jboss.jpa.deployment.PersistenceUnitDeployment] (JBoss Shutdown Hook) Stopping persistence unit persistence.unit:unitName=#EjbModulePU
+2016-05-23 17:26:07,974 INFO  [org.hibernate.impl.SessionFactoryImpl] (JBoss Shutdown Hook) closing
+2016-05-23 17:26:07,974 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbinding factory from JNDI name: persistence.unit:unitName=#EjbModulePU
+2016-05-23 17:26:07,974 INFO  [org.hibernate.util.NamingHelper] (JBoss Shutdown Hook) JNDI InitialContext properties:{java.naming.factory.initial=org.jnp.interfaces.NamingContextFactory, java.naming.factory.url.pkgs=org.jboss.naming:org.jnp.interfaces}
+2016-05-23 17:26:07,980 INFO  [org.hibernate.impl.SessionFactoryObjectFactory] (JBoss Shutdown Hook) Unbound factory from JNDI name: persistence.unit:unitName=#EjbModulePU
+2016-05-23 17:26:07,980 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=PostgresDS' from JNDI name 'java:PostgresDS'
+2016-05-23 17:26:08,090 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-05-23 17:26:08,090 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-05-23 17:26:08,101 INFO  [org.quartz.simpl.SimpleThreadPool] (JBoss Shutdown Hook) There are still 46 worker threads active. See javadoc runInThread(Runnable) for a possible explanation
+2016-05-23 17:26:08,101 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016-05-23 17:26:08,783 INFO  [org.jboss.wsf.framework.management.DefaultEndpointRegistry] (JBoss Shutdown Hook) remove: jboss.ws:context=EjbModule,endpoint=LibraryBooksWebserviceBean
+2016-05-23 17:26:08,879 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2016-05-23 17:26:08,881 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2016-05-23 17:26:09,336 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2016-05-23 17:26:13,884 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
